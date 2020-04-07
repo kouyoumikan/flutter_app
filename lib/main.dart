@@ -11,7 +11,9 @@ void main() => runApp(MaterialApp(
       child: Text("hello ninjas!"), // 画面中央にテキスト
     ),
     floatingActionButton: FloatingActionButton(
+      onPressed: () {}, // ボタン押下時イベント
       child: Text("click"), // アクションボタン内にテキスト
+      backgroundColor: Colors.red[600], // ボタン色設定
     ),
   ),
 ));
