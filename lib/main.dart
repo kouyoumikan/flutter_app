@@ -18,8 +18,8 @@ class Home extends StatelessWidget {
       body: Row(
         // 列レイアウト　各要素間に余白を圴一
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-        // 利用可能なスペースの高さまで伸びる
-        crossAxisAlignment: CrossAxisAlignment.stretch,
+        // 行の一番に揃える
+        crossAxisAlignment: CrossAxisAlignment.end,
         children: <Widget>[
           Text("hellow, world"),
           FlatButton(
