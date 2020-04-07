@@ -8,7 +8,15 @@ void main() => runApp(MaterialApp(
       backgroundColor: Colors.red[600], // アプリバーの色
     ),
     body: Center(
-      child: Text("hello ninjas!"), // 画面中央にテキスト
+      child: Text(
+        "hello ninjas!", // 画面中央にテキスト
+        style: TextStyle(
+          fontSize: 20.0, // フォントサイズ
+          fontWeight: FontWeight.bold, // フォントの太さ
+          letterSpacing: 2.0, // 文字間隔
+          color: Colors.grey[600], // テキストの色設定
+        ),
+      ),
     ),
     floatingActionButton: FloatingActionButton(
       onPressed: () {}, // ボタン押下時イベント
