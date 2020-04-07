@@ -15,14 +15,11 @@ class Home extends StatelessWidget {
         centerTitle: true, // アプリバーテキストを中央に配置
         backgroundColor: Colors.red[600], // アプリバーの色
       ),
-      body: Center(
-        child: IconButton(
-          onPressed: () {
-            print("you clicked me");
-          },
-          icon: Icon(Icons.alternate_email),
-          color: Colors.amber,
-        ),
+      body: Container(
+        // テキスト周りの余白　全て
+        padding: EdgeInsets.all(20.0),
+        color: Colors.grey[400],
+        child: Text("hellow"),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {}, // ボタン押下時イベント
