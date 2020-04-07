@@ -16,9 +16,12 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[600], // アプリバーの色
       ),
       body: Center(
-        child: RaisedButton(
-            onPressed: () {},
+        child: FlatButton(
+          onPressed: () {
+            print("you clicked me");
+          },
           child: Text("click me"),
+          color: Colors.lightBlue,
         ),
       ),
       floatingActionButton: FloatingActionButton(
