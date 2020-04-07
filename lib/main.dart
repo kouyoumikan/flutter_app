@@ -16,15 +16,14 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[600], // アプリバーの色
       ),
       body: Center(
-        child: RaisedButton.icon(
-            onPressed: () {},
-            icon: Icon(
-              Icons.mail
-            ),
-            label: Text("mail me"),
+        child: IconButton(
+          onPressed: () {
+            print("you clicked me");
+          },
+          icon: Icon(Icons.alternate_email),
           color: Colors.amber,
-          ),
         ),
+      ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {}, // ボタン押下時イベント
         child: Text("click"), // アクションボタン内にテキスト
