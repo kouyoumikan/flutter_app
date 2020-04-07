@@ -5,6 +5,7 @@ void main() => runApp(MaterialApp(
     appBar: AppBar(
       title: Text("my first app"), // アプリバーのテキスト
       centerTitle: true, // アプリバーテキストを中央に配置
+      backgroundColor: Colors.red[600], // アプリバーの色
     ),
     body: Center(
       child: Text("hello ninjas!"), // 画面中央にテキスト
