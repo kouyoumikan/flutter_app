@@ -15,22 +15,12 @@ class Home extends StatelessWidget {
         centerTitle: true, // アプリバーテキストを中央に配置
         backgroundColor: Colors.red[600], // アプリバーの色
       ),
-      body: Row(
-        // 列レイアウト　各要素間に余白を圴一
-        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-        // デフォルト値
-        crossAxisAlignment: CrossAxisAlignment.center,
+      body: Column(
         children: <Widget>[
-          Text("hellow, world"),
-          FlatButton(
-            onPressed: () {},
-            color: Colors.amber,
-            child: Text("click me"),
-          ),
           Container(
+            padding: EdgeInsets.all(20.0),
             color: Colors.cyan,
-            padding: EdgeInsets.all(30.0),
-            child: Text("inside container"),
+            child: Text("one"),
           ),
         ],
       ),
