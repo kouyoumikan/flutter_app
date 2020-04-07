@@ -16,7 +16,7 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[600], // アプリバーの色
       ),
       body: Center(
-        child: Image.network("https://4.bp.blogspot.com/_IVaBMjPN9gM/TERC_CVVR_I/AAAAAAAAHNA/kaabdaD0SwQ/s1600/%E5%BD%A9%E9%9B%B2.jpg"),
+        child: Image.asset("assets/niji2.jpg"),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {}, // ボタン押下時イベント
