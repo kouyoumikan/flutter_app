@@ -15,10 +15,20 @@ class Home extends StatelessWidget {
         centerTitle: true, // アプリバーテキストを中央に配置
         backgroundColor: Colors.red[600], // アプリバーの色
       ),
-      body: Padding(
-        // テキスト周りの余白　全て
-        padding: EdgeInsets.all(90.0),
-        child: Text("hellow"),
+      body: Row(
+        children: <Widget>[
+          Text("hellow, world"),
+          FlatButton(
+            onPressed: () {},
+            color: Colors.amber,
+            child: Text("click me"),
+          ),
+          Container(
+            color: Colors.cyan,
+            padding: EdgeInsets.all(30.0),
+            child: Text("inside container"),
+          ),
+        ],
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {}, // ボタン押下時イベント
