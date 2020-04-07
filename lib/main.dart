@@ -19,7 +19,7 @@ class Home extends StatelessWidget {
         // Expanded Widgets(FlexBoxのようなもの)
         children: <Widget>[
           Expanded(
-            flex: 6, // 6/10分割
+            flex: 1, // 3/6分割
             child: Container(
               padding: EdgeInsets.all(30.0),
               color: Colors.cyan,
@@ -27,7 +27,7 @@ class Home extends StatelessWidget {
             ),
           ),
           Expanded(
-            flex: 2, // 2/10分割
+            flex: 1, // 2/6分割
             child: Container(
               padding: EdgeInsets.all(30.0),
               color: Colors.pinkAccent,
@@ -35,7 +35,7 @@ class Home extends StatelessWidget {
             ),
           ),
           Expanded(
-            flex: 1, // 1/10分割
+            flex: 1, // 1/6分割
             child: Container(
               padding: EdgeInsets.all(30.0),
               color: Colors.amber,
