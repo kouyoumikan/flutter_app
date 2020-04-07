@@ -6,5 +6,8 @@ void main() => runApp(MaterialApp(
       title: Text("my first app"), // アプリバーのテキスト
       centerTitle: true, // アプリバーテキストを中央に配置
     ),
+    body: Center(
+      child: Text("hello ninjas!"), // 画面中央にテキスト
+    ),
   ),
 ));
