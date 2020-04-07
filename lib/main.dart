@@ -16,10 +16,9 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[600], // アプリバーの色
       ),
       body: Center(
-        child: Icon(
-          Icons.airport_shuttle,
-          color: Colors.lightBlue,
-          size: 50.0,
+        child: RaisedButton(
+            onPressed: () {},
+          child: Text("click me"),
         ),
       ),
       floatingActionButton: FloatingActionButton(
