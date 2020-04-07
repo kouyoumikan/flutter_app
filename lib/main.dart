@@ -18,20 +18,26 @@ class Home extends StatelessWidget {
       body: Row(
         // Expanded Widgets(FlexBoxのようなもの)
         children: <Widget>[
-          Container(
-            padding: EdgeInsets.all(30.0),
-            color: Colors.cyan,
-            child: Text("1"),
+          Expanded(
+            child: Container(
+              padding: EdgeInsets.all(30.0),
+              color: Colors.cyan,
+              child: Text("1"),
+            ),
           ),
-          Container(
-            padding: EdgeInsets.all(30.0),
-            color: Colors.pinkAccent,
-            child: Text("2"),
+          Expanded(
+            child: Container(
+              padding: EdgeInsets.all(30.0),
+              color: Colors.pinkAccent,
+              child: Text("2"),
+            ),
           ),
-          Container(
-            padding: EdgeInsets.all(30.0),
-            color: Colors.amber,
-            child: Text("3"),
+          Expanded(
+            child: Container(
+              padding: EdgeInsets.all(30.0),
+              color: Colors.amber,
+              child: Text("3"),
+            ),
           ),
         ],
       ),
