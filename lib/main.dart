@@ -16,6 +16,8 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[600], // アプリバーの色
       ),
       body: Column(
+        // 列の中央に配置
+        mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
           Container(
             padding: EdgeInsets.all(20.0),
