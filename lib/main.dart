@@ -18,8 +18,8 @@ class Home extends StatelessWidget {
       body: Column(
         // 列の一番下に配置する
         mainAxisAlignment: MainAxisAlignment.end,
-        // デフォルト値(列の中央に配置)
-        crossAxisAlignment: CrossAxisAlignment.center,
+        // 列の左に配置する
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
           Container(
             padding: EdgeInsets.all(20.0),
