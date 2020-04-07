@@ -21,6 +21,12 @@ class Home extends StatelessWidget {
         // 列の右に配置する
         crossAxisAlignment: CrossAxisAlignment.end,
         children: <Widget>[
+          Row(
+            children: <Widget>[
+              Text("hellow, "),
+              Text("world"),
+            ],
+          ),
           Container(
             padding: EdgeInsets.all(20.0),
             color: Colors.cyan,
