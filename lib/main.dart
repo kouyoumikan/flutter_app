@@ -16,8 +16,9 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[600], // アプリバーの色
       ),
       body: Container(
-        // テキスト周りの余白　左右対称(上下、左右)
-        padding: EdgeInsets.symmetric(horizontal: 30.0, vertical: 10.0),
+        // テキスト周りの余白　全て指定(左,上,右,下)
+        padding: EdgeInsets.fromLTRB(10.0, 20.0, 30.0, 40.0),
+        margin: EdgeInsets.all(30.0),
         color: Colors.grey[400],
         child: Text("hellow"),
       ),
