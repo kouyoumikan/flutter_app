@@ -16,8 +16,8 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[600], // アプリバーの色
       ),
       body: Column(
-        // 各要素の間隔を開ける
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        // 各要素の余白を等間隔にする
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: <Widget>[
           Container(
             padding: EdgeInsets.all(20.0),
