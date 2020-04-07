@@ -16,6 +16,8 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[600], // アプリバーの色
       ),
       body: Row(
+        // 列レイアウト　中央に配置
+        mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
           Text("hellow, world"),
           FlatButton(
