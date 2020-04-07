@@ -16,7 +16,11 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[600], // アプリバーの色
       ),
       body: Center(
-        child: Image.asset("assets/niji2.jpg"),
+        child: Icon(
+          Icons.airport_shuttle,
+          color: Colors.lightBlue,
+          size: 50.0,
+        ),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {}, // ボタン押下時イベント
