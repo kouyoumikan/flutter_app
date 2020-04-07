@@ -15,13 +15,14 @@ void main() => runApp(MaterialApp(
           fontWeight: FontWeight.bold, // フォントの太さ
           letterSpacing: 2.0, // 文字間隔
           color: Colors.grey[600], // テキストの色設定
+          fontFamily: "IndieFlower",
         ),
       ),
     ),
     floatingActionButton: FloatingActionButton(
       onPressed: () {}, // ボタン押下時イベント
       child: Text("click"), // アクションボタン内にテキスト
-      backgroundColor: Colors.red[600], // ボタン色設定
+      backgroundColor: Colors.red[600],  // ボタン色設定
     ),
   ),
 ));
