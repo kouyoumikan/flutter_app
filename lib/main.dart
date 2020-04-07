@@ -9,5 +9,8 @@ void main() => runApp(MaterialApp(
     body: Center(
       child: Text("hello ninjas!"), // 画面中央にテキスト
     ),
+    floatingActionButton: FloatingActionButton(
+      child: Text("click"), // アクションボタン内にテキスト
+    ),
   ),
 ));
