@@ -18,6 +18,8 @@ class Home extends StatelessWidget {
       body: Column(
         // 各要素の余白を等間隔にする
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        // 利用可能なスペースだけ横に伸びる
+        crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
           Container(
             padding: EdgeInsets.all(20.0),
