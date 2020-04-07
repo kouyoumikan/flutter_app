@@ -16,15 +16,8 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[600], // アプリバーの色
       ),
       body: Center(
-        child: Text(
-          "hello ninjas!", // 画面中央にテキスト
-          style: TextStyle(
-            fontSize: 20.0, // フォントサイズ
-            fontWeight: FontWeight.bold, // フォントの太さ
-            letterSpacing: 2.0, // 文字間隔
-            color: Colors.grey[600], // テキストの色設定
-            fontFamily: "IndieFlower",
-          ),
+        child: Image(
+          image: NetworkImage("https://i.pinimg.com/originals/7d/c3/8b/7dc38bfd09aac66afc6f98ecf31e6d0e.jpg"),
         ),
       ),
       floatingActionButton: FloatingActionButton(
