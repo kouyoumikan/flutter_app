@@ -19,7 +19,11 @@ class Home extends StatelessWidget {
         // Expanded Widgets(FlexBoxのようなもの)
         children: <Widget>[
           Expanded(
-            flex: 1, // 3/6分割
+              child: Image.asset("assets/niji3.jpg"),
+            flex: 3, // 3/6分割
+          ),
+          Expanded(
+            flex: 1, // 1/6分割
             child: Container(
               padding: EdgeInsets.all(30.0),
               color: Colors.cyan,
@@ -27,7 +31,7 @@ class Home extends StatelessWidget {
             ),
           ),
           Expanded(
-            flex: 1, // 2/6分割
+            flex: 1, // 1/6分割
             child: Container(
               padding: EdgeInsets.all(30.0),
               color: Colors.pinkAccent,
