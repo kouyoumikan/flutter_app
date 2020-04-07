@@ -15,32 +15,23 @@ class Home extends StatelessWidget {
         centerTitle: true, // アプリバーテキストを中央に配置
         backgroundColor: Colors.red[600], // アプリバーの色
       ),
-      body: Column(
-        // 列の一番下に配置する
-        mainAxisAlignment: MainAxisAlignment.end,
-        // 列の右に配置する
-        crossAxisAlignment: CrossAxisAlignment.end,
+      body: Row(
+        // Expanded Widgets(FlexBoxのようなもの)
         children: <Widget>[
-          Row(
-            children: <Widget>[
-              Text("hellow, "),
-              Text("world"),
-            ],
-          ),
           Container(
-            padding: EdgeInsets.all(20.0),
+            padding: EdgeInsets.all(30.0),
             color: Colors.cyan,
-            child: Text("one"),
+            child: Text("1"),
           ),
           Container(
             padding: EdgeInsets.all(30.0),
             color: Colors.pinkAccent,
-            child: Text("two"),
+            child: Text("2"),
           ),
           Container(
-            padding: EdgeInsets.all(40.0),
+            padding: EdgeInsets.all(30.0),
             color: Colors.amber,
-            child: Text("three"),
+            child: Text("3"),
           ),
         ],
       ),
