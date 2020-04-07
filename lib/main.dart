@@ -17,7 +17,7 @@ class Home extends StatelessWidget {
       ),
       body: Column(
         // 各要素の間隔を開ける(少しだけ均等)
-        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: <Widget>[
           Container(
             padding: EdgeInsets.all(20.0),
