@@ -22,6 +22,16 @@ class Home extends StatelessWidget {
             color: Colors.cyan,
             child: Text("one"),
           ),
+          Container(
+            padding: EdgeInsets.all(30.0),
+            color: Colors.pinkAccent,
+            child: Text("two"),
+          ),
+          Container(
+            padding: EdgeInsets.all(40.0),
+            color: Colors.amber,
+            child: Text("three"),
+          ),
         ],
       ),
       floatingActionButton: FloatingActionButton(
